@@ -2,4 +2,6 @@ language: java
 jdk:
   - openjdk8
 script: mvn test -B
-script: if [ ${COVERITY_SCAN_BRANCH} != 1 ]; then make ; fi
+script:
+ - flake8 --statistics --count
+ - if [ ${COVERITY_SCAN_BRANCH} != 1 ]; then make ; fi
