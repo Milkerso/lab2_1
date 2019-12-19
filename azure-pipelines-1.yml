@@ -9,7 +9,7 @@ steps:
 - task: SonarCloudPrepare@1
   inputs:
     SonarCloud: 'lab2_1'
-    organization: 'Dawid Krawczyk'
+    organization: 'milkerso'
     scannerMode: 'Other'
 - task: SonarCloudAnalyze@1
 - task: Maven@3
