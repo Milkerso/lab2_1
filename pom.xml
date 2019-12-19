@@ -10,7 +10,7 @@
 		<junit.version>4.12</junit.version>
 	    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
  <sonar.projectKey>lab2_1</sonar.projectKey>
-  <sonar.organization>Dawid Krawczyk</sonar.organization>
+  <sonar.organization>milkerso</sonar.organization>
 	</properties>
   <dependencies>		
 		<dependency>
