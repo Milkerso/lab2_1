@@ -8,6 +8,9 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<jdk.version>1.8</jdk.version>
 		<junit.version>4.12</junit.version>
+	  	    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+ <sonar.projectKey>lab2_1</sonar.projectKey>
+  <sonar.organization>milkerso</sonar.organization>
 	</properties>
   <dependencies>		
 		<dependency>
