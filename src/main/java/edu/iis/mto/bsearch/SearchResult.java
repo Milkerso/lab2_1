@@ -3,6 +3,8 @@
  */
 package edu.iis.mto.bsearch;
 
+import java.util.Objects;
+
 public class SearchResult {
 
 	private static final int NOT_FOUND = -1;
@@ -29,6 +31,11 @@ public class SearchResult {
 
 		}
 		return false;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(position);
 	}
 
 	@Override
